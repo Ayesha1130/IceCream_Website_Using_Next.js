@@ -6,7 +6,7 @@ import AOS from 'aos'; // Import AOS library
 import { useEffect } from 'react';
 
 
-const page = () => {
+const About = () => {
     useEffect(() => {
         AOS.init({
             duration: 1500,
@@ -39,4 +39,4 @@ const page = () => {
   )
 }
 
-export default page
+export default About
