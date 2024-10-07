@@ -60,7 +60,7 @@ const Services = () => {
         <h1 className='text-2xl md:text-3xl lg:text-4xl font-bold italic animate-bounce mb-8'>Our Services</h1>
         <div className='p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 '>
             {cardData.map((card,index) => (
-                <Card key={index} image={card.image} title={card.title} description={card.description} 
+                <Card key={card.title} image={card.image} title={card.title} description={card.description} 
                 data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000"
