@@ -47,7 +47,7 @@ const cardData: CardData[] = [
 
 ]
 
-const services = () => {
+const Services = () => {
     useEffect(() => {
         AOS.init({
             duration: 2000,
@@ -73,4 +73,4 @@ const services = () => {
   )
 }
 
-export default services
+export default Services

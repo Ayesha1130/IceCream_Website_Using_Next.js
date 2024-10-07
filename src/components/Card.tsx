@@ -4,7 +4,7 @@ interface CardProps{
     image: string;
     title: string;
     description: string;
-    [key: string]:any;
+    [key: string]:string | undefined;
     'data-aos'?: string; // Specify AOS attribute
     'data-aos-easing'?: string; // Specify easing attribute
     'data-aos-duration'?: string;
