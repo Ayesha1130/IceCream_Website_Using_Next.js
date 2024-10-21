@@ -18,7 +18,7 @@ const Nlinkvblinkr = () => {
 
   return (
     <header className='flex  justify-between items-center p-4 '>
-        <button title='button' onClick={toggleMenu}>{!isOpen? <IoMdMenu size={20}/>: <RxCross2 size={20}/>}
+        <button title='button' onClick={toggleMenu}>{!isOpen? <IoMdMenu size={20} className='md:hidden lg:hidden'/>: <RxCross2 size={20} className='md:hidden lg:hidden'/>}
 
 </button>
         <h1 className='text-2xl md:text-3xl lg:text-4xl md:text-center lg:text-left font-bold italic '>LusciousLicks</h1>
